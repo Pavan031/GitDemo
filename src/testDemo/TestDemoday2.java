@@ -9,6 +9,9 @@ public class TestDemoday2 {
 	public void ploan() {
 		
 		System.out.println("Good");
+		System.out.println("Good and Bad");
+		System.out.println("Annam pavan kalyan");
+		System.out.println("Annam gangamani");
 	}
 	
 	@BeforeTest
