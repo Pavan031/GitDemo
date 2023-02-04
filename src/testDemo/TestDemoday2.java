@@ -18,6 +18,9 @@ public class TestDemoday2 {
 	public void prerequisite() {
 		
 		System.out.println("I will execute First");
+		System.out.println("Aruna");
+		System.out.println("Janardhan");
+		System.out.println("Im very good boy");
 	}
 
 }
