@@ -54,6 +54,9 @@ public class TestDemoday3 {
 		
 		//Appium
 		System.out.println("MobileLoginCar");
+		System.out.println("Good and Bad");
+		System.out.println("Annam pavan kalyan");
+		System.out.println("Annam gangamani");
 	}
 	
 	@BeforeSuite
