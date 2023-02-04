@@ -5,16 +5,12 @@ import org.testng.annotations.Test;
 
 public class TestDemoday4 {
 	
-	@Parameters({"URL", "APIkey/userName"})
 	@Test
-	public void WebloginHomeLoan(String urlName, String key) {
+	public void WebloginHomeLoan() {
 		
 		//selenium
 		System.out.println("WebLoginHomePersonal loan");
-		System.out.println(urlName);
-		System.out.println(key);
 	}
-	
 	@Test(groups=("Smoke"))
 	public void MobileloginHomeLoan() {
 		

@@ -5,8 +5,6 @@
 		<listener class-name="testDemo.Listeners"></listener>
 	</listeners>
   <test name="Personal Loan" parallel="classes" thread-count="2">
-	  <parameter name="URL" value="personalloan.com"></parameter>
-	  <parameter name="APIkey/userName" value="123456"></parameter>
     <classes>
       <class name="testDemo.TestDemoday1">
 		  <methods>
@@ -18,8 +16,6 @@
     </classes>
   </test>
   <test name="Car Loan">
-	  <parameter name="URL" value="carloan.com"></parameter>
-	  <parameter name="APIkey/userName" value="123456"></parameter>
 	  <classes>
 		  <class name="testDemo.TestDemoday3">
 			<methods>

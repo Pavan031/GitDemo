@@ -26,7 +26,6 @@ public class TestDemoday1 {
   public void demo() {
 	  
 	  System.out.println("Hello");
-	  Assert.assertTrue(true);
   }
   
   @Test

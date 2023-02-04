@@ -25,14 +25,11 @@ public class TestDemoday3 {
 		System.out.println("After Executing all methods in class");
 	}
 	
-	@Parameters({"URL", "APIkey/userName"})
 	@Test
-	public void WebloginCarLoan(String urlName, String key) {
+	public void WebloginCarLoan() {
 		
 		//selenium
 		System.out.println("WebLoginCar");
-		System.out.println(urlName);
-		System.out.println(key);
 	}
 	
 	@BeforeMethod
